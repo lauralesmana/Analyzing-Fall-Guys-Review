@@ -18,5 +18,6 @@ This project will analyze the reviews for Fall Guys that are posted in the game'
 3. Users mostly complains that the cheaters, server connection and some stages ruin the game's fun
 
 # Future Improvements
-1. Improving the text cleaning so the topic labels can be more accurate
-2. The unsupervised model with the current reviews resulted in 75% accuracy, while the False Positive Rate is 40%. It might be better to find another model or improve the dataset
+1. Improving the text cleaning so the topic labels and models can be more accurate
+2. In general, the sentiment model can give acceptable result between recommended and not recommended reviews. But, there is several inaccuracies in review with polarities (e.g., I really like this game, but it gets redundant --> positive). It might be better to fix the dataset or find new models that can give better result. 
+3. Deploying the topic modeling for use in flask
